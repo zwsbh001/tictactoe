@@ -1,2 +1,1 @@
-"# tictactoe" 
-mat2
+# [LFF.ONE / Tic Tac Toe](https://lff.one/tictactoe)
