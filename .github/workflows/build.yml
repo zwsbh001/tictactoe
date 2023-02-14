@@ -21,6 +21,6 @@ jobs:
     name: build, deploy
     steps:
       - name: execute pull on server
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/main'
         run:
           curl https://lff.one/server/git/gitPull.api
