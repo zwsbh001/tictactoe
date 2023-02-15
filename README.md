@@ -15,7 +15,7 @@ Dieses Programm mag noch nicht funktoniren aber es entsteht langsam aber sich au
 ## Offene Dateien
 
 #### Mattes (mattes2008)
-Keine Dateien Geöffnet
+- `img/title.png`
 
 #### Lando (LFF5644)
 - `README.md`
