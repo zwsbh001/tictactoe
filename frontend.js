@@ -1,6 +1,7 @@
 let data = {
 
 	combinations: [[0, 1, 2], [3, 4, 5], [6, 7, 8], [0, 3, 6], [1, 4, 7], [2, 5, 8], [0, 4, 8], [2, 4, 6]],
+	field: document.getElementsByClassName("ticTacToe_field"),
 
 }
 
@@ -128,6 +129,40 @@ let ticTacToe = {
 			return {active: true, message: "o",};
 		} else if (crosses===circles) {
 			return {active: true, message: "x",};
+		}
+
+	},
+	fieldToState: function() {
+
+		for (let i=0; i<data.field.length; i++) {
+			let result = [];
+
+			if (data.field[i].innerHTML==="X") {
+				result.push("x");
+			} else if (data.field[i].innerHTML==="O") {
+				result.push("o");
+			}
+		}
+
+	},
+	stateToField: function(state) {
+
+		for (let i=0; i<state.length; i++) {
+
+			if (state[i]==="x") {
+				data.field[i].innerHTML = "X";
+				data.field[i].classList.add("ticTacToe_field_red");
+				data.field[i].classList.remove("ticTacToe_field_blue")
+			} else if (state[i]==="o") {
+				data.field[i].innerHTML = "O";
+				data.field[i].classList.add("ticTacToe_field_blue");
+				data.field[i].classList.remove("ticTacToe_field_red")
+			} else if (state[i]==="-") {
+				data.field[i].innerHTML = "";
+				data.field[i].classList.remove("ticTacToe_field_blue");
+				data.field[i].classList.remove("ticTacToe_field_red")
+			}
+
 		}
 
 	},
