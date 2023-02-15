@@ -11,6 +11,7 @@ Dieses Programm mag noch nicht funktoniren aber es entsteht langsam aber sich au
 - [ ] Schönen Gewinner Screen Programmieren
 - [ ] Gewinne mit account.service.js verbinden
 - [ ] Gewinne / Statistic anzeigen
+- [ ] BOT/AI programmieren
 
 ## Offene Dateien
 
