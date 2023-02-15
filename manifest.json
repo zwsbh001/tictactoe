@@ -1,0 +1,20 @@
+{
+	"name":"Tic Tac Toe",
+	"description":"Tic Tac Toe",
+	"short_name":"Tic Tac Toe",
+	"icons":[
+		{
+			"sizes":"960x540",
+			"src":"/p/tictactoe/img/title.png"
+		},
+		{
+			"sizes":"960x960",
+			"src":"/p/tictactoe/img/favicon.png"
+		}
+	],
+	"scope":"/tictactoe",
+	"start_url":"/tictactoe?type=app",
+	"display":"fullscreen",
+	"theme_color": "#103",
+	"background_color":"#103"
+}
