@@ -1,4 +1,4 @@
-name: CALL PULL API
+name: Webseite Updaten
 
 on:
   push:
@@ -18,7 +18,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: build, deploy
+    name: upload to webpage
     steps:
       - name: CALL WEB API
         if: github.ref == 'refs/heads/main'
