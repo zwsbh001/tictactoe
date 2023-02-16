@@ -6,8 +6,8 @@ Dieses Programm mag noch nicht funktoniren aber es entsteht langsam aber sich au
 - [ ] Schönes CSS einbauen
 - [ ] Erste runde spielen
 - [ ] Auf Gewinner prüfen
-- [ ] Service / Api Programmieren (@LFF5644)
-- [ ] Multiplayer Spiele Ermöglichen (@Mattes, @LFF5644)
+- [ ] Service / Api Programmieren
+- [ ] Multiplayer Spiele Ermöglichen
 - [ ] Schönen Gewinner Screen Programmieren
 - [ ] Gewinne mit account.service.js verbinden
 - [ ] Gewinne / Statistic anzeigen
