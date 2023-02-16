@@ -6,13 +6,13 @@ on:
       - dev
       - build
     paths:
-      - '.'
+      - '**'
   pull_request:
     branches-ignore:
       - dev
       - build
     paths:
-      - '.'
+      - '**'
   workflow_dispatch:
 
 jobs:
