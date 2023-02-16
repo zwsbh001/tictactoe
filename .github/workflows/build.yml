@@ -1,4 +1,4 @@
-name: deploy to webserver
+name: CALL PULL API
 
 on:
   push:
@@ -6,13 +6,13 @@ on:
       - dev
       - build
     paths:
-      - '*'
+      - '.'
   pull_request:
     branches-ignore:
       - dev
       - build
     paths:
-      - '*'
+      - '.'
   workflow_dispatch:
 
 jobs:
@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     name: build, deploy
     steps:
-      - name: execute pull on server
+      - name: CALL WEB API
         if: github.ref == 'refs/heads/main'
         run:
           curl https://lff.one/server/git/gitPull.api
