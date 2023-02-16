@@ -3,7 +3,7 @@ Dieses Programm mag noch nicht funktoniren aber es entsteht langsam aber sich au
 
 ## TODO
 - [ ] Spielfeld erschaffen
-- [ ] Schönes CSS einbauen (@Mattes)
+- [ ] Schönes CSS einbauen
 - [ ] Erste runde spielen
 - [ ] Auf Gewinner prüfen
 - [ ] Service / Api Programmieren (@LFF5644)
