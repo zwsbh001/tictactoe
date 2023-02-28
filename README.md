@@ -1,6 +1,6 @@
 # [LFF.ONE / Tic Tac Toe](https://lff.one/tictactoe)
 
-http://htmlpreview.github.io/?https://https://github.com/zwsbh001/tictactoe/master/index.html
+https://htmlpreview.github.io/?https://github.com/zwsbh001/tictactoe/blob/main/index.html
 
 Dieses Programm mag noch nicht funktoniren aber es entsteht langsam aber sich aus team work! Dieses Projekt ist das erste gemeinsame Projekt für @Mattes, @Lando & @Error dabei wird hauptsächlich gelernt wie man sich absprechen muss damit man nicht gleichzeitig die gleichen Dateien bearbeitet!
 
