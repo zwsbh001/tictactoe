@@ -1,0 +1,52 @@
+body{
+	font-family: Tahoma,Geneva,Arial,sans-serif;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+h1,h2{
+	margin-left: 50px;
+}
+fieldset{border-radius: 10px;}
+a{
+	color: black;
+}a:hover{
+	color: blue;
+	cursor: pointer;
+}a:active{
+	color: red;
+	opacity: .5;
+}
+input{
+	background: transparent none repeat scroll 0% 0%;
+	color: inherit;
+	font: inherit;
+	border-radius: 5px;
+}
+input[type="text"]{
+	border-color:green;
+	border-width: 3px;
+	color:green;
+}
+input[type="text"]:hover{
+	border-radius: 0;
+	border-color:blue;
+}
+input[type="password"]{
+	border-color:green;
+	border-width: 3px;
+}
+input[type="password"]:hover{
+	border-radius: 0;
+	border-color:blue;
+}
+input[disabled]{
+	border-color:red;
+	color:gray;
+	cursor:not-allowed;
+}
+input[disabled]:hover{
+	border-color:red;
+	border-radius: 10px;
+}
+.hidden{display:none;}
