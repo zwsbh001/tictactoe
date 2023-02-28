@@ -1,14 +1,33 @@
-<!DOCTYPE html>
+<?
+	const {// importiert aus https://github.com/LFF5644/siteServer-config in file init.js you can find the globals.functions={};
+		importHead,
+	}=globals.functions;	// globals ist ein globales object was auf meiner gesamtenten webseite verfügbar ist und beschrieben werden kann globals.functions hingegen wird in der init.js Datei Definiert!
+?><!DOCTYPE html>
 <html>
-    <script src="mattes.js"></script>
-    <script src="lando.js"></script>
-    <script src="sluime.js"></script>
 	<head>
-		
+		<?=importHead({
+			input,					// Server Argumente übergeben also "?hello=1"
+			title:"Tic Tac Toe",	// Webseiten Titel setzen macht nichts anderes als "<title>Tic Tac Toe</title>"
+			icon:"/p/tictactoe/img/favicon.png",
+			icons:{
+				"960x540": "/p/tictactoe/img/title.png",
+				"960x960": "/p/tictactoe/img/favicon.png",
+			},
+			manifest:"/p/tictactoe/manifest.json",
+			css:[
+				"/css/main.css",				// Den normalen webseiten style von lff.one einbinden https://github.com/LFF5644/site-css
+			],
+			cssDark:[							// css was noch zusätzlich geladen werden soll wenn es nach 19 uhr ist
+				"/css/main.dark.css",			// Dunklen Seiten Style von lff.one laden wenn "?darkMode=always" oder es nach 19 uhr ist wird noch zusätzlich die Datei geladen und überschreibt damit die andere! 
+			],
+			script:[
+				"/p/tictactoe/frontend.js", 	// Mattes Datei einbinden
+			],
+			tabs:2,					// Damit for den Einträgen 2 mal tab ist
+		})?>
 	</head>
 	<body>
 		<h1>Tic Tac Toe</h1>
-        <h2 id="testElement">Element</h2>
 		<p><img src=/p/tictactoe/img/title.png width=100% algin=top></p>
 	</body>
 </html>
