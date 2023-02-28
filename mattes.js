@@ -167,5 +167,6 @@ let ticTacToe = {
 		}
 
 	},
+	tableClicked: function
 
 }
