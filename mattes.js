@@ -167,6 +167,18 @@ let ticTacToe = {
 		}
 
 	},
-	tableClicked: function
+	setMark: function(src) {
+
+		if (data.activePlayer==="playerX") {
+			src.innerHTML = "X";
+			src.classList.add("redField");
+			data.activePlayer = "playerO";
+		} else if (data.activePlayer==="playerO") {
+			src.innerHTML = "O";
+			src.classList.add("blueField");
+			data.activePlayer = "playerX";
+		}
+
+	},
 
 }
